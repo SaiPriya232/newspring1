@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Source') {
                 steps {
-                    git url: 'https://github.com/Jhansi1910/sonar_maven_jfrog.git'
+                    git url: 'https://github.com/Jhansi1910/springmysql.git'
                 }
             }
             stage('Build') {
