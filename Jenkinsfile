@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Source') {
                 steps {
-                    git url: 'https://github.com/Jhansi1910/springmysql.git'
+                    git url: 'https://github.com/SaiPriya232/newspring1.git'
                 }
             }
             stage('Build') {
