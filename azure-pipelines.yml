@@ -62,7 +62,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure Web App Deploy: my-priya-name'
             inputs:
-              azureSubscription: $(azureSubscription)
-              appType: webAppLinux
-              appName: $(webAppName)
+              azureSubscription: 'BFSI_LGI_DevOps_Training_POC(f3f0b402-1498-4537-9728-704a780011a0)'
+              appType: 'webAppLinux'
+              appName: 'my-priya-name'
               package: '$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)'
