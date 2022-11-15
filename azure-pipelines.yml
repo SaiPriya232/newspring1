@@ -34,7 +34,7 @@ stages:
       displayName: 'Maven Package'
       inputs:
         mavenPomFile: 'pom.xml'
-
+    
     - task: CopyFiles@2
       displayName: 'Copy Files to artifact staging directory'
       inputs:
@@ -60,7 +60,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: my-app2-name'
+            displayName: 'Azure Web App Deploy: my-priya-name'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
